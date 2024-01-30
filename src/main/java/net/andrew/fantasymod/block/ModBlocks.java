@@ -34,6 +34,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> DWARF_GLOWSTONE =registryBlock("dwarf_glowstone",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB);
+    public static final RegistryObject<Block> DWARF_COBBLESTONE =registryBlock("dwarf_cobblestone",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB);
+
 
 
     public static final RegistryObject<Block> DWARF_ORE =registryBlock("dwarf_ore",
@@ -41,6 +45,10 @@ public class ModBlocks {
                     .strength(5F).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB);
     public static final RegistryObject<Block> DWARF_DEEPSLATE_ORE =registryBlock("dwarf_deepslate_ore",
+            ()->new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5F).requiresCorrectToolForDrops(),
+                    UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB);
+    public static final RegistryObject<Block> DWARF_DEEPSLATE_MITHRIL_ORE =registryBlock("dwarf_deepslate_mithril_ore",
             ()->new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5F).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB);
