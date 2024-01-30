@@ -1,0 +1,13 @@
+{
+  "item.fantasymod.dwarf": "dwarf",
+  "item.fantasymod.raw_dwarf": "Raw dwarf",
+
+  "block.fantasymod.dwarf_block": "Block of dwarf",
+  "block.fantasymod.dwarf_ore": "Dwarf ore",
+  "block.fantasymod.dwarf_deepslate_ore": "dwarf deepslate ore",
+  "block.fantasymod.dwarf_stone": "Dwarf stone",
+  "block.fantasymod.dwarf_stone_bricks": "Dwarf stone bricks",
+  "block.fantasymod.dwarf_glowstone": "Dwarf glowstone",
+
+  "itemGroup.fantasytab": "Dwarf Fantasy Tab"
+}

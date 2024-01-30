@@ -1,6 +1,8 @@
 package net.andrew.fantasymod;
 
 import com.mojang.logging.LogUtils;
+import net.andrew.fantasymod.block.ModBlocks;
+import net.andrew.fantasymod.item.Moditems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,6 +20,10 @@ public class FantasyMod {
 
     public FantasyMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+
+        Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
