@@ -24,34 +24,46 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DWARF_BLOCK =registryBlock("dwarf_block",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB);
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
     public static final RegistryObject<Block> DWARF_STONE =registryBlock("dwarf_stone",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB);
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
     public static final RegistryObject<Block> DWARF_STONE_BRICKS =registryBlock("dwarf_stone_bricks",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB);
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
     public static final RegistryObject<Block> DWARF_GLOWSTONE =registryBlock("dwarf_glowstone",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB);
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
     public static final RegistryObject<Block> DWARF_COBBLESTONE =registryBlock("dwarf_cobblestone",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB);
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
+    public static final RegistryObject<Block> DWARF_DEEPSLATE_MITHRIL_ORE =registryBlock("dwarf_deepslate_mithril_ore",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
+
+    public static final RegistryObject<Block> DWARF_MITHRIL =registryBlock("dwarf_mithril",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
+
+    public static final RegistryObject<Block> ELF_STONE =registryBlock("elf_stone",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5F).requiresCorrectToolForDrops()), ModCreativeModeTab.FANTASY_TAB1);
 
 
 
     public static final RegistryObject<Block> DWARF_ORE =registryBlock("dwarf_ore",
             ()->new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5F).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB);
+                    UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB1);
     public static final RegistryObject<Block> DWARF_DEEPSLATE_ORE =registryBlock("dwarf_deepslate_ore",
             ()->new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5F).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB);
-    public static final RegistryObject<Block> DWARF_DEEPSLATE_MITHRIL_ORE =registryBlock("dwarf_deepslate_mithril_ore",
+                    UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB1);
+    public static final RegistryObject<Block> ELF_ORE =registryBlock("elf_ore",
             ()->new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5F).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB);
+                    UniformInt.of(3,7)), ModCreativeModeTab.FANTASY_TAB1);
+
 
 
 

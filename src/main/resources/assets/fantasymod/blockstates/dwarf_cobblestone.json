@@ -1,7 +1,6 @@
 {
   "variants": {
-    "": {
-      "model": "fantasymod:block/dwarf_cobblestone"
+    "": { "model": "fantasymod:block/dwarf_cobblestone"
     }
   }
 }
