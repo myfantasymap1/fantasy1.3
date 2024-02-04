@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "fantasymod1:block/elf_stone" }
+    "": { "model": "fantasymod:block/elf_stone" }
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fantasymod1:block/elf_stone"
+    "all": "fantasymod:block/elf_stone"
   }
 }

@@ -1,27 +1,55 @@
 {
   "item.fantasymod.dwarf": "dwarf",
   "item.fantasymod.raw_dwarf": "Raw dwarf",
-  "item.fantasymod1.elf": "elf",
+  "item.fantasymod.elf": "elf",
+  "item.fantasymod.dwarf_torch": "dwarf torch",
 
 
+  "block.fantasymod.dwarf":"dwarf",
+  "block.fantasymod.dwarf_stone":"dwarf stone",
+  "block.fantasymod.dwarf_block":"dwarf block",
+  "block.fantasymod.dwarf_cobblestone":"dwarf cobblestone",
+  "block.fantasymod.dwarf_stone_bricks":"dwarf stone bricks",
+  "block.fantasymod.dwarf_deepslate_mithril_ore":"dwarf deepslate mithril Ore",
+  "block.fantasymod.dwarf_deepslate_ore":"Dwarf Deepslate ore",
+  "block.fantasymod.dwarf_glowstone":"dwarf glowstone",
+  "block.fantasymod.dwarf_ore": "dwarf ore",
+  "block.fantasymod.dwarf_pillar":"dwarf pillar",
+  "block.fantasymod.dwarf_mithril":"dwarf mithril",
+  "block.fantasymod.elf_stone":"elf stone",
+  "block.fantasymod.dwarf_mithril_pillar": "dwarf_mithril_pillar",
+  "block.fantasymod.dwarf_gate_stone": "dwarf gate stone",
+  "block.fantasymod.dwarf_hall": "dwarf hall",
+  "block.fantasymod.iron_dwarf_pillar": "iron dwarf pillar",
+  "block.fantasymod.dwarf_rock": "dwarf rock",
+  "block.fantasymod.dwarf_silver_stone": "dwarf silver stone",
+  "block.fantasymod.troll_stone": "troll stone",
+  "block.fantasymod.iron_dwarf_stone": "iron dwarf stone",
+  "block.fantasymod.dwarf_stone_one": "dwarf stone one",
+  "block.fantasymod.dwarf_pillar_one":"dwarf pillar one",
+  "block.fantasymod.mordor_wall":"mordor wall",
+  "block.fantasymod.mordor_stone":"mordor stone",
+  "black.fantasymod.mordor_blackstone": "mordor black stone",
+  "black.fantasymod.mordor_brickstone" : "mordor brick stone",
+  "block.fantasymod.dwarf_limestone": "dwarf limestone",
+  "block.fantasymod.mordor_wall_torch": "mordor wall torch",
+  "block.fantasymod.mordor_black": "mordor black",
+  "block.fantasymod.mordor_path": "mordor path",
+  "block.fantasymod.mordor_limestone": "mordor limestone",
+  "block.fantasymod.mordor_evil_pillar": "mordor evil pillar",
+  "block.fantasymod.stone_two": "mordor stone two",
+  "block.fantasymod.elf_cobblestone": "elf cobblestone",
+  "block.fantasymod.first_age_stone": "first age stone",
+  "block.fantasymod.dwarf_second": "dwarf second",
+  "block.fantasymod.evil_dwarf_stone": "evil dwarf stone",
+  "block.fantasymod.mordor_evil_stone": "mordor evil stone",
+  "block.fantasymod.dwarf_metal": "dwarf metal",
+  "block.fantasymod.dwarf_redstone": "dwarf_redstone",
+  "block.fantasymod.dwarforge_stone": "dwarforge_stone",
 
-  "block.fantasymod.dwarf_block": "Block of dwarf",
-  "block.fantasymod.dwarf_ore": "Dwarf ore",
-  "block.fantasymod.dwarf_deepslate_ore": "dwarf deepslate ore",
-  "block.fantasymod.dwarf_stone": "Dwarf stone",
-  "block.fantasymod.dwarf_stone_bricks": "Dwarf stone bricks",
-  "block.fantasymod.dwarf_glowstone": "Dwarf glowstone",
-  "block.fantasymod.dwarf_deepslate_mithril_ore": "Dwarf deepslate mithril ore",
-  "block.fantasymod.dwarf_cobblestone": "Dwarf cobblestone",
-  "block.fantasymod.dwarf_mithril": "Dwarf mithril ",
-
-
-
-
-   "block.fantasymod1.elf_stone" : "elf stone",
-   "block.fantasymod1.elf ore": "elf ore",
-
-
-  ".DWARF tab" :
-  ".ELF tab1"
+  "itemGroup.Dwarf": "dwarf Tab",
+  "itemGroup.Elf": "elf Tab",
+  "itemGroup.Mordor":"mordor Tab",
+  "itemGroup.Troll": "troll Tab",
+  "itemGroup.Iron Dwarf": "iron dwarf Tab"
 }
