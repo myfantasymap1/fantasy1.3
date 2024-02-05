@@ -46,6 +46,9 @@
   "block.fantasymod.dwarf_metal": "dwarf metal",
   "block.fantasymod.dwarf_redstone": "dwarf_redstone",
   "block.fantasymod.dwarforge_stone": "dwarforge_stone",
+  "block.fantasymod.elf_torch": "elf_torch",
+  "block.fantasymod.dwarf_torch": "dwarf_torch",
+  "block.fantasymod.dwarf_brick": "dwarf_brick",
 
   "itemGroup.Dwarf": "dwarf Tab",
   "itemGroup.Elf": "elf Tab",

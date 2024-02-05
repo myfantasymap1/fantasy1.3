@@ -135,7 +135,14 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
     public static final RegistryObject<Block>dwarforge_pillar=registryBlock("dwarforge_pillar",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
-
+    public static final RegistryObject<TorchBlock> ELF_TORCH = registryBlock("elf_torch",
+            () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH), ParticleTypes.FLAME), ModCreativeModeTab.ELF);
+    public static final RegistryObject<TorchBlock> ELF_TORCH_WALL = registryBlock("elf_torch_wall",
+            () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH), ParticleTypes.FLAME), ModCreativeModeTab.ELF);
+    public static final RegistryObject<TorchBlock> dwarf_TORCH = registryBlock("dwarf_torch",
+            () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH), ParticleTypes.FLAME), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_BRICK=registryBlock("dwarf_brick",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
 
 
 
