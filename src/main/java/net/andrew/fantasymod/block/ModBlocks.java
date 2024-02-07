@@ -189,6 +189,16 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
     public static final RegistryObject<Block>DWARF_LILAC_BRICK=registryBlock("dwarf_lilac_brick",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_STONESTONE=registryBlock("dwarf_stonestone",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public  static final RegistryObject<Block>DWARF_FIRSTFIND=registryBlock("dwarf_firstfind",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public  static final RegistryObject<Block>DWARF_BUEALERITE=registryBlock("dwarf_buealerite",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public  static final RegistryObject<Block>DWARF_BRILLIANCE=registryBlock("dwarf_brilliance",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public  static final RegistryObject<Block>DWARF_CROOSILITE=registryBlock("dwarf_croosilite",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
 
 
 

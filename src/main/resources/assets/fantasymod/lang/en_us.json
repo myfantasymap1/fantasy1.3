@@ -10,6 +10,7 @@
   "block.fantasymod.dwarf_block":"dwarf block",
   "block.fantasymod.dwarf_cobblestone":"dwarf cobblestone",
   "block.fantasymod.dwarf_stone_bricks":"dwarf stone bricks",
+  "block.fantasymod.dwarf_stonestone": "dwarf_stonestone",
   "block.fantasymod.dwarf_deepslate_mithril_ore":"dwarf deepslate mithril Ore",
   "block.fantasymod.dwarf_deepslate_ore":"Dwarf Deepslate ore",
   "block.fantasymod.dwarf_glowstone":"dwarf glowstone",
@@ -75,6 +76,10 @@
   "block.fantasymod.dwarf_nonksite": "dwarf_nonksite",
   "block.fantasymod.dwarf_magenta_brick": "dwarf_magenta_brick",
   "block.fantasymod.dwarf_phonebeite": "dwarf_phonebeite",
+  "block.fantasymod.dwarf_firstfind": "dwarf_firstfind",
+  "block.fantasymod.dwarf_buealerite": "dwarf_buealerite",
+  "block.fantasymod.dwarf_brilliance": "dwarf_brilliance",
+  "block.fantasymod.dwarf_croosilite": "dwarf_croosilite",
 
   "itemGroup.Dwarf": "dwarf Tab",
   "itemGroup.Elf": "elf Tab",
