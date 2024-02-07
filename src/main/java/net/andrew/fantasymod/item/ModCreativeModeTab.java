@@ -7,25 +7,28 @@ import net.minecraft.world.item.ItemStack;
 public class ModCreativeModeTab {
     public static final CreativeModeTab DWARF = new CreativeModeTab("Dwarf") {
         @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(Moditems.DWARF.get());
+        public ItemStack makeIcon() {return new ItemStack(Moditems.DWARF.get());
 
         }
     };
     public static final CreativeModeTab ELF = new CreativeModeTab("Elf") {
         @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(Moditems.ELF.get());
+        public ItemStack makeIcon() {return new ItemStack(Moditems.ELF.get());
 
         }
     };
     public static final CreativeModeTab ORE = new CreativeModeTab("Orc") {
         @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(Moditems.ORC.get());
+        public ItemStack makeIcon() {return new ItemStack(Moditems.ORC.get());
 
         }
     };
+    public static final CreativeModeTab ANGBAND = new CreativeModeTab("ANGBAND") {
+        @Override
+        public ItemStack makeIcon() {return new ItemStack(Moditems.ANGBAND.get());
+        }
+    };
+
     public static final CreativeModeTab MORDOR = new CreativeModeTab("Mordor") {
         @Override
         public ItemStack makeIcon() {
@@ -50,6 +53,12 @@ public class ModCreativeModeTab {
             return new ItemStack(Moditems.HIGHELF.get());
         }
     };
+    public static final CreativeModeTab WARHAMMER = new CreativeModeTab("WARHAMMER") {
+        @Override
+        public ItemStack makeIcon() {return new ItemStack(Moditems.WARHAMMER.get());
+        }
+    };
+
 }
 
 

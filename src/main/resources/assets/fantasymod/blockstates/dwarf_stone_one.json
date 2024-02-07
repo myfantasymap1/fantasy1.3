@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model": "fantasymod:block/dwarf_stone_one" }
+    "": { "model": "fantasymod:block/dwarf_stone_one"
+    }
   }
 }

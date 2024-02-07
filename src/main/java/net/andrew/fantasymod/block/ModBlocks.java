@@ -137,12 +137,62 @@ public class ModBlocks {
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
     public static final RegistryObject<TorchBlock> ELF_TORCH = registryBlock("elf_torch",
             () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH), ParticleTypes.FLAME), ModCreativeModeTab.ELF);
-    public static final RegistryObject<TorchBlock> ELF_TORCH_WALL = registryBlock("elf_torch_wall",
-            () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH), ParticleTypes.FLAME), ModCreativeModeTab.ELF);
     public static final RegistryObject<TorchBlock> dwarf_TORCH = registryBlock("dwarf_torch",
             () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH), ParticleTypes.FLAME), ModCreativeModeTab.DWARF);
     public static final RegistryObject<Block>DWARF_BRICK=registryBlock("dwarf_brick",
             ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_BRICKONE=registryBlock("dwarf_brickone",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_BRICkBLOCK=registryBlock("dwarf_brickblock",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>ELF_WOODLOG=registryBlock("elf_woodlog",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.ELF);
+    public static final RegistryObject<Block>MORDOR_STONEONE=registryBlock("mordor_stoneone",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.MORDOR);
+    public static final RegistryObject<Block>MORDOR_WALLS=registryBlock("mordor_walls",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.MORDOR);
+    public static final RegistryObject<Block>DWARF_STONEBLOCK=registryBlock("dwarf_stoneblock",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_LIMESTONEBRICK=registryBlock("dwarf_limestonebrick",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_KAMBLUCITE=registryBlock("dwarf_kamblucite",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_MIASUM=registryBlock("dwarf_miasum",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_LILAC=registryBlock("dwarf_lilac",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_MEIAZ=registryBlock("dwarf_meiaz",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_KAMNZITE=registryBlock("dwarf_kamnzite",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_MEIAZ_PILLAR=registryBlock("dwarf_meiaz_pillar",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_MAGENTA=registryBlock("dwarf_magenta",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_MAGENTA_pillar=registryBlock("dwarf_magenta_pillar",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_LIGOND=registryBlock("dwarf_ligond",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_gmelmarine=registryBlock("dwarf_gmelmarine",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_glinty=registryBlock("dwarf_glinty",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_Spuicrete=registryBlock("dwarf_spuicrete",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_nagzalite=registryBlock("dwarf_nagzalite",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_nonksite=registryBlock("dwarf_nonksite",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_MAGENTA_BRICK=registryBlock("dwarf_magenta_brick",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_MEIAZ_BRICK=registryBlock("dwarf_meiaz_brick",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+    public static final RegistryObject<Block>DWARF_LILAC_BRICK=registryBlock("dwarf_lilac_brick",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.DWARF);
+
+
+
+
 
 
 

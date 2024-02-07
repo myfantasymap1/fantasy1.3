@@ -34,6 +34,12 @@ public class Moditems {
             ()->new Item(new Item.Properties().tab(ModCreativeModeTab.IRONDWARF)));
     public static final RegistryObject<Item> HIGHELF=ITEMS.register("highelf",
             ()->new Item(new Item.Properties().tab(ModCreativeModeTab.HIGHELF)));
+    public static final RegistryObject<Item> ANGBAND=ITEMS.register("angband",
+            ()->new Item(new Item.Properties().tab(ModCreativeModeTab.ANGBAND)));
+    public static final RegistryObject<Item> WARHAMMER=ITEMS.register("warhammer",
+            ()->new Item(new Item.Properties().tab(ModCreativeModeTab.WARHAMMER)));
+
+
 
 
 

@@ -1,7 +1,7 @@
 {
   "item.fantasymod.dwarf": "dwarf",
   "item.fantasymod.raw_dwarf": "Raw dwarf",
-  "item.fantasymod.elf": "elf",
+  "item.fantasymod.elf": "elf_torch",
   "item.fantasymod.dwarf_torch": "dwarf torch",
 
 
@@ -49,10 +49,38 @@
   "block.fantasymod.elf_torch": "elf_torch",
   "block.fantasymod.dwarf_torch": "dwarf_torch",
   "block.fantasymod.dwarf_brick": "dwarf_brick",
+  "block.fantasymod.dwarf_brickone": "dwarf_brickone",
+  "block.fantasymod.dwarf_stoneblock": "dwarf_stoneblock",
+  "block.fantasymod.elf_woodlog": "elf_woodlog",
+  "block.fantasymod.mordor_walls": "mordor_walls",
+  "block.fantasymod.angband_stone": "angband_stone",
+  "block.fantasymod.dwarf_brickblock": "dwarf_brickblock",
+  "block.fantasymod.dwarf_limestonebrick": "dwarf_limestonebrick",
+  "block.fantasymod.dwarf_kamblucite": "dwarf_kamblucite",
+  "block.fantasymod.dwarf_miasum": "dwarf_miasum",
+  "block.fantasymod.dwarf_lilac": "dwarf_lilac",
+  "block.fantasymod.dwarf_lilac_brick": "dwarf_lilac_brick",
+  "block.fantasymod.dwarf_meiaz": "dwarf_meiaz",
+  "block.fantasymod.dwarf_meiaz_pillar": "dwarf_meiaz_pillar",
+  "block.fantasymod.dwarf_meiaz_brick": "dwarf_meiaz_brick",
+  "block.fantasymod.dwarf_kamnzite": "dwarf_kamnzite",
+  "block.fantasymod.dwarf_magenta": "dwarf_magenta",
+  "block.fantasymod.dwarf_magenta_pillar": "dwarf_magenta_pillar",
+  "block.fantasymod.dwarf_ligond": "dwarf_ligond",
+  "block.fantasymod.dwarf_gerygorskite": "dwarf_gerygorskite",
+  "block.fantasymod.dwarf_gmelmarine": "dwarf_gmelmarine",
+  "block.fantasymod.dwarf_glinty": "dwarf_glinty",
+  "block.fantasymod.dwarf_spuicrete": "dwarf_spuicrete",
+  "block.fantasymod.dwarf_nagzalite": "dwarf_nagzalite",
+  "block.fantasymod.dwarf_nonksite": "dwarf_nonksite",
+  "block.fantasymod.dwarf_magenta_brick": "dwarf_magenta_brick",
+  "block.fantasymod.dwarf_phonebeite": "dwarf_phonebeite",
 
   "itemGroup.Dwarf": "dwarf Tab",
   "itemGroup.Elf": "elf Tab",
   "itemGroup.Mordor":"mordor Tab",
   "itemGroup.Troll": "troll Tab",
-  "itemGroup.Iron Dwarf": "iron dwarf Tab"
+  "itemGroup.Iron Dwarf": "iron dwarf Tab",
+  "itemGroup.Angband": "angband tab",
+  "itemGroup.Warhammer": "warhammer tab"
 }
